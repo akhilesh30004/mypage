@@ -2,7 +2,7 @@
 	background-image:(url:download.png)
 }
 body{
-	background-color: #f53b57;
+	background-color: ;
 	font-family: roboto;
 }
 .container-fluid{
@@ -36,9 +36,33 @@ h1{
 	line-height: 1.5;
 	font-family: Roboto;
 }
+h3{
+	font-family: monospace bold;
+}
+p{
+	color: gray;
+}
 /*title-image*/
 /*image rotation*/
 .title-image{
 	width: 60%;
 	transform: rotate(25deg);
+}
+#title{
+	background-color: #f53b57;
+}
+/*feature sections*/
+#features{
+	padding: 7% 15%;
+}
+.feature-box{
+	text-align: center;
+	padding: 5%;
+}
+.icon{
+	color: red;
+	margin-bottom: 1rem;
+}
+.icon:hover{
+	color: #f53b57;
 }
