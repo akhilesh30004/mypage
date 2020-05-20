@@ -1,5 +1,6 @@
 .navbar-toggler-icon{
-	background-image:(url:download.png)
+	background-image:url(download1.png);
+background-size: cover;
 }
 body{
 	background-color: ;
